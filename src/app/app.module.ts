@@ -10,6 +10,8 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectComponent } from './project/project.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AboutComponent } from './about/about.component';
+import { InterestComponent } from './interest/interest.component';
+import { EducationComponent } from './education/education.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { AboutComponent } from './about/about.component';
     ContactComponent,
     ProjectComponent,
     SkillsComponent,
-    AboutComponent
+    AboutComponent,
+    InterestComponent,
+    EducationComponent
   ],
   imports: [
     BrowserAnimationsModule,
